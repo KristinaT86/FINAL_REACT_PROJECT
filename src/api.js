@@ -1,9 +1,5 @@
-const API_URL = 'https://pet-shop-backend.slavab.kz';
+export const API_URL = "http://localhost:3333";
 
-export { API_URL };
+// https://pet-shop-backend.slavab.kz
 
-export const fetchProducts = async () => {
-    const response = await fetch(`${API_URL}/products/all`);
-    return response.json();
-};
-
+// http://localhost:3333
